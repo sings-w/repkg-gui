@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+*.spec
+build/
+dist/
+# RePKG.exe 由用户自行获取，不分发
+RePKG.exe
