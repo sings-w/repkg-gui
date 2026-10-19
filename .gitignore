@@ -8,3 +8,5 @@ build/
 dist/
 # RePKG.exe 由用户自行获取，不分发
 RePKG.exe
+# 本机个人配置，不入库
+config.json

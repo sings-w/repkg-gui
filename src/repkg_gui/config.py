@@ -1,9 +1,9 @@
 import json
-import os
 from datetime import datetime
 from pathlib import Path
 
-CONFIG_DIR = Path(os.environ.get("APPDATA", str(Path.home() / ".config"))) / "RePKG_GUI"
+# 配置文件存项目根目录（src/repkg_gui/config.py 上溯两级），不写用户目录
+CONFIG_DIR = Path(__file__).resolve().parents[2]
 CONFIG_FILE = CONFIG_DIR / "config.json"
 
 DEFAULTS = {

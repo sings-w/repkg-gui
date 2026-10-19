@@ -39,7 +39,7 @@ uv run python -m repkg_gui
 
 ## 配置
 
-配置保存在 `%APPDATA%\RePKG_GUI\config.json`（RePKG 路径、默认输出目录、最近输入、最近 10 条历史），不写入项目目录。
+配置保存在项目根目录 `config.json`（RePKG 路径、默认输出目录、最近输入、最近 10 条历史），已被 `.gitignore` 排除，不入库、不写用户目录。
 
 ## 常见问题
 
